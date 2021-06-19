@@ -6,7 +6,7 @@
 
 # GreenFingers
 
-> 이루고 싶은 목표를 하루단위로 쪼개 실천해 나가면서 목표를 습관으로 바꿔나가도록 돕는 소셜네트워크 플랫폼
+> 반려식물 종합관리 앱
 
 
 
@@ -27,7 +27,7 @@
 
 
 
-
+<img src="https://img.shields.io/badge/React Native-61DAFB?style=flat-square&logo=React&logoColor=white&link="/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white&link="/> <img src="https://img.shields.io/badge/Firebaase-FFCA28?style=flat-square&logo=Firebase&logoColor=white&link="/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white&link="/> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white&link="/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white&link="/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white&link="/> <img src="https://img.shields.io/badge/Numpy-013243?style=flat-square&logo=Numpy&logoColor=white&link="/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white&link="/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white&link="/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white&link="/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white&link="/> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white&link="/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white&link="/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white&link="/>
 
 
 
