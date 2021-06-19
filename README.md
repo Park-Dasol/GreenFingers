@@ -1,136 +1,364 @@
-# Green Fingers
-
-## ✅프로젝트 개요
-
-> 반려식물 종합 관리 서비스
-> 팀장 : 박다솔
-> 팀원 : 김규연, 김부희, 김소정, 김주효, 박기성
-
-
-# 기획 배경
-코로나19로 인해 사회에 대한 갈증이 더욱 더 커지면서 라이프스타일이 변화하고 있다. 집콕생활의 증가로 인한 우울감과 미래에 대한 불안감을 식물과 커뮤니케이션을 통해 극복하려는 사람이 자연스럽게 늘고 있다. 하지만 집에서 식물을 가꾸는 취미는 증가하고 있지만 식물에 대한 공부는 그에 미치지 못하고 있다.
-식물을 기를 때 중요한 것 중 하나는 물주기 조절이다. 하지만 식물이 필요한 적당량을 물을 가늠하기 어려워 식물을 말려 죽이거나 오히려 물을 너무 자주 줘서 뿌리가 썩어 죽는 일이 많다. 또 식물의 품종에 따라 물주는 시기가 달라 품종이 어떤 환경에서 잘 자라는지의 기본 지식도 공부해야 한다.
-이처럼 식물마다 특성이 다르므로 어떤 식물을 기를지 결정하기 위해서는 식물을 기르는 사람과 장소의 환경과 식물의 특성을 고려해야 하며, 이를 고려한 관리가 필요하지만 이러한 정보를 맞춤으로 제공하는 서비스는 부족하다. 반려식물 인구가 증가 함에 따라 쉽게 식물에 다가가고자 하는 수요는 증가하고 있지만 이에 따른 공급은 충분치 않은 상황이다.
-
-
-
-# 국/내외 현황 및 유사 서비스 조사
-미국 애틀랜타 기반의 산업 디자이너 'Douglas Cushing'가 스마트 화분 'Sprout Smart Garden'을 출시했다. 'Sprout Smart Garden'은 식물의 종류를 선택해 화분에 등록하면 식물에 맞춰 물을 줄 시기와 절절한 햇빛의 양에 대한 정보를 알려주고, 식물의 건강상태를 알려줍니다. 
-비슷한 제품으로 룩셈부르크(luxembourg)에 기반을 둔 뮤디자인(mu-design) 팀이 개발한 스마트 화분 ‘루아’가 있다. 토양의 수분, 온도, 빛의 노출 등 생장에 필요한 것을 측정해 표시해주는 스마트 화분입니다. 식물의 상태를 읽고 감정을 표현해 주는 등 여러가지 센서를 통해 식물의 정보를 확인 할 수 있게 도와줍니다. 
-하지만 스마트 화분 서비스는 충전 케이블을 연결해 충전해 주어야 하는데다가 식물에게 물을 줄 때 전자제품에 물이 들어 가 안전에 위협을 초래할 수도 있다는 단점이 있다. 또한, 많은 사람들이 반려 식물을 찾는 이유 중의 하나가 조경과 인테리어인데 제한적인 디자인으로 인해 조경 효과를 상실할 수 있다.
-
-구글 플레이스토어에 등록된 앱 Pliary와 Planfit을 유사 사례로 들 수 있다. 
-Pliary는 기르는 식물을 등록하고 직접 물주기 패턴을 설정해 물을 주는 날 알림을 받을 수 있다. 또한 식물의 성장 기록을 남기는 다이어리 기능이 있다.
-Planfit 또한 비슷한 서비스이다. 반려식물 목록을 한눈에 정리해 놓는 기능이 있다. 직접 식물 별 물주기 알림을 설정해 물주기 캘린더로 물을 주는 날짜를 관리 할 수 있다. 또 어떤 식물을 키워야 할지 식물의 특성과 반려 인의 특성을 고려해 추천해주는 기능이 있다.
-하지만 기존의 서비스들은 직접 식물을 등록하고, 반려 식물의 특성을 공부해 등록한 후에 본인이 설정한 기간에 맞춰 알림을 받을 수 있다는 불편함이 있다.
-
-
-# 기대 효과
-반려 식물을 기르는데 초기 장벽인 식물에 대한 공부의 부담이 줄어들어 사람들이 반려 식물을 키우는 사람들이 증가할 수 있다. 반려 식물의 증가로 스트레스 감소, 실내를 쾌적하게 유지, 자녀들의 정서적 안정, 집안의 밝은 분위기 유지로 사회에 긍정적인 효과를 미칠 것으로 기대한다. 또한, 코로나 19상황이 장기화되면서 비대면 서비스가 증가하면서 전자기기를 어려워 하는 노인들의 고독감이나 우울감이 심화되고 있는 상황에서 반려 식물을 돌보는 활동을 장려해 활력과 건강을 되찾는 데 도움이 될 수 있다. 코로나 19 및 화훼 소비 감소로 어려움을 겪고 있는 화훼 농가에 화훼 소비 촉진의 기회가 될 수 있다.
-
-
-# 확장가능성
-
-가정 내의 다양한 IoT 기기와 연동해서 식물을 키우는데 필요한 온도, 습도 등의 추가 정보를 제공하는 서비스를 확장할 수 있다. IoT기기와의 연동을 통해 갑작스런 날씨 변화에 따라 창문을 닫아 창가에 둔 식물이 비를 맞는 것으로부터 보호하는 기능 등으로 발전 시키는 것을 기대할 수 있다.
 
 
 
 
-# 프로젝트 목표
-> 이 프로 젝트를 통해 어떤 프로젝트를 구현하고 싶은지, 개인적으로 어떤 역량을 발전시켰으면 하는지에 대해 기술해 본다.
 
-- 내가 가진 식물을 인식하여 식물의 종류를 알려주고 키울 때 필요한 정보들을 제공하는 서비스를 개발한다.
-- 기존의 물주기 알림 앱과 차별화하여 사용자가 직접 공부해 물주기 기간을 설정할 필요 없이 앱에서 자동으로 물주는 기간을 파악하여 알림을 받을 수 있도록 한다.
-- 식물을 키울 때 특이사항을 발견했을 때 질문하고 답을 구할 수 있는 질문 커뮤니티와 나의 식물의 성장 기록을 한눈에 확인 할 수 있는 성장 일기 서비스를 제공한다. 반려식물인들이 정보를 공유를 활성화할 수 있는 장을 제공하고, 기존 사용자가 지속적으로 사용하도록 유도한다.
-- 식물을 키워보고는 싶지만 어떤 식물을 기를지 고민하는 사람들을 위해 식물 추천 서비스를 제공한다. 식물을 키우는 것에 대한 두려움을 극복하도록 도와 앱의 사용을 유도한다.
-- 백엔드 부분은 학습한 기술을 모두 접목해 서비스로서 완성도와 안정성을 갖춘 서비스를 제공하고, 프론트엔드는 처음 접하는 앱과 프레임워크를 성실히 공부해 기획과 명세서가 요구하는 기능을 안정적으로 제공하는 프론트엔드를 완성한다. 백엔드, 프론트엔드 모두 사용하는 기술 스택을 깊이 있게 이해하고 개발자로서의 한층 성장하는 계기가 된다.
-- 팀원 모두가 같은 수준의 기획 이해도를 바탕으로 프로젝트를 진행하고, Git, Jira, Webex, Mattermost 등 협업 툴을 적극적으로 사용하고 소통해 효과적으로 업무를 배분하고 시간을 관리해 개발 역량 향상과 취업을 모두 이룬다.
 
-![1](https://user-images.githubusercontent.com/60100901/118922897-bf7ec300-b975-11eb-86d3-0f583ac4cc28.png)
+# GreenFingers
+
+> 이루고 싶은 목표를 하루단위로 쪼개 실천해 나가면서 목표를 습관으로 바꿔나가도록 돕는 소셜네트워크 플랫폼
 
 
 
+## 📙GreenFingers소개
 
-## 와이어프레임
-https://drive.google.com/file/d/1JjZXiPvLodNY4x_UjbOA0oULK-ky3RY8/view?usp=sharing
+- 개발기간 : 2021.04.12 ~ 2021.05.21
+- 앱 : GreeenFingers(그린핑거스)
+  - 코로나19로 인해 사회에 대한 갈증이 더욱 더 커지면서 라이프스타일이 변화하고 있다. 집콕생활의 증가로 인한 우울감과 미래에 대한 불안감을 식물과 커뮤니케이션을 통해 극복하려는 사람이 자연스럽게 늘고 있다. 하지만 집에서 식물을 가꾸는 취미는 증가하고 있지만 식물에 대한 공부는 그에 미치지 못하고 있고, 식물을 키우기 위해서는 많은 정보와 노력이 필요하지만 그것이 쉽지 많은 않은 점에 착안하여 프로젝트를 기획
+- 팀원 소개 : 
 
-## 발표 자료
-https://drive.google.com/file/d/1vfVPLA8iOjxyvffCQR532VBHs4qW8OgG/view?usp=sharing
-
-### 
-
+![team](README.assets/image-20210618155508146.png)
 
 
-### 프로젝트 아키텍쳐
 
-![2](https://user-images.githubusercontent.com/60100901/118922907-c1e11d00-b975-11eb-8894-a48d9c866028.png)
 
-![3](https://user-images.githubusercontent.com/60100901/118922918-c574a400-b975-11eb-8353-a95561aa186e.png)
 
-### 유스케이스 다이어그램
+## 🔧Tech Stack
 
-![4](https://user-images.githubusercontent.com/60100901/118922926-c73e6780-b975-11eb-9611-320b59edafc5.png)
 
-## ✅프로젝트 상세 기능
 
-### Frontend
 
-- React Native + Expo
-- Styled Components 활용
-- Redux를 이용해 상태관리
 
-#### 1. 로그인 페이지
 
-![5](https://user-images.githubusercontent.com/60100901/118922934-c9082b00-b975-11eb-9d00-3a818f73f804.png)
 
-#### 2. 메인페이지
 
-![6](https://user-images.githubusercontent.com/60100901/118922941-cc9bb200-b975-11eb-9788-0e435ec7f578.png)
 
-#### 3. 다이어리 페이지
 
-![7](https://user-images.githubusercontent.com/60100901/118922950-cf96a280-b975-11eb-93d1-8e043e4ca613.png)
 
-#### 4. 식물 분류 페이지
+## 💻페이지소개
 
-![8](https://user-images.githubusercontent.com/60100901/118922955-d1606600-b975-11eb-96b0-91c1a95877b6.png)
+### Home Tab
 
-#### 5. 식물 추천 페이지
 
-![9](https://user-images.githubusercontent.com/60100901/118922970-d6251a00-b975-11eb-8e05-1dc402016e6a.png)
 
-### Backend
+#### Main Page
 
-- Spring Boot  + JPA 
-- REST API 설계
-- Spring Security를 이용한 로그인 구현
-- 인공지능 모델 학습
+> 내가 가진 방 목록, 식물을 키우기 위한 날씨, 온도, 습도 정보를 확인할수 있고, 물주기 알림을 확인하는 버튼을 확인 할 수 있다.
 
-#### 1. API 설계
+![main](README.assets/KakaoTalk_20210526_102253555_google-pixel4-clearlywhite-portrait.png)
 
-![10](https://user-images.githubusercontent.com/60100901/118922979-d9200a80-b975-11eb-97ff-7ff959db422e.png)
+#### Home Theme Edit Page
 
-![11](https://user-images.githubusercontent.com/60100901/118922988-dc1afb00-b975-11eb-8765-b3622e6b0c8b.png)
+> 우측 상단의 설정 버튼을 클릭해 홈 이름과 테마 배경사진을 변경 할 수 있다.
 
-#### 2. 인공지능 개발
+![homeTheme](README.assets/KakaoTalk_20210526_102253555_03_google-pixel4-clearlywhite-portrait.png)
 
-![12](https://user-images.githubusercontent.com/60100901/118922989-dd4c2800-b975-11eb-8347-72bbb151c5d6.png)
+#### Notification
 
-1) Dataset
+> 우측 상단의 종모양 버튼을 클릭해 물주기 알림 목록을 확인하고, 자세한 알림 내용도 확인 할 수 있다.
+>
+> 알림은 식물 종류에 맞춰 자동으로 전송되며, 앱을 사용하지 않을때도 알림을 수신 받을 수 있다.
 
-![13](https://user-images.githubusercontent.com/60100901/118923005-e0dfaf00-b975-11eb-9eee-709ed6c3bb2b.png)
+![알림상세_google-pixel4-clearlywhite-portrait](README.assets/알림상세_google-pixel4-clearlywhite-portrait.png)
 
-- 학명, 이름, 카테고리, 관리 난이도, 향 유무, 습도, 온도, 물 주기 등의 정보를 제공합니다.
+#### Room Page
 
-2) 인공지능 모델 학습
+> 메인화면의 방버튼을 클릭하면 그 방안에 존재하는 모든 식물의 리스트를 확인할 수 있다.
 
-- 전이 학습
+![](README.assets/KakaoTalk_20210526_102253555_01_google-pixel4-clearlywhite-portrait.png)
 
-![14](https://user-images.githubusercontent.com/60100901/118923014-e3420900-b975-11eb-870d-570d7083d952.png)
 
-- PyTorch 라이브러리 활용
-- 데이터 셋 호출
-- 이미지 시각화
-- CNN 딥러닝 모델 활용
-- 이미지 학습
-- 학습 모델 평가
+
+
+
+
+
+#### My Plant Detail
+
+> 방 안의 식물을 클릭하면 나의 식물 정보(데려온 날짜, 적정온도, 적정습도, 물주기, 마지막 물 준 날짜)를 자세히 확인 할 수 있다.
+>
+> 다이어리 버튼을 눌러서 이 식물에 대한 일기와 물준 기록을 확인할 수 있다.
+>
+> 왼쪽 상단의 설정 버튼을 통해 식물 정보를 수정하거나, 죽은 식물 처리(떠나감), 식물을 삭제 할 수 있다.
+
+![plant detail](README.assets/KakaoTalk_20210526_102253555_02_google-pixel4-clearlywhite-portrait.png)
+
+
+
+> 떠나감 처리한 식물의 배경은 어둡게 처리 된다.
+
+![식물떠나감처리후_google-pixel4-clearlywhite-portrait](README.assets/식물떠나감처리후_google-pixel4-clearlywhite-portrait-1624098872356.png)
+
+
+
+
+
+### Diary Tab
+
+>다이어리 탭에서는 식물별로 물 주기, 일기를 작성, 수정, 삭제 할수 있고, 타임라인으로 전체 일기 기록을 한눈에 확인 할 수 있다.
+
+
+
+#### Diary Main Calendar
+
+> 다이어리 메인 페이지에서는 내가 가진 식물을  한 눈에 상단에서 확인 할 수 있고, 식물별로 물준날짜는 파란색 타원형으로 칠해지고, 일기를 쓴 날짜는 연두색 점이 찍힌다.
+
+![KakaoTalk_20210526_102253555_05_google-pixel4-clearlywhite-portrait](README.assets/KakaoTalk_20210526_102253555_05_google-pixel4-clearlywhite-portrait.png)
+
+
+
+#### Diary Detail
+
+> 연두색 점이 찍힌 날짜를 터치하면 그 날의 일기를 자세히 볼 수 있다.
+
+![KakaoTalk_20210526_102253555_06_google-pixel4-clearlywhite-portrait](README.assets/KakaoTalk_20210526_102253555_06_google-pixel4-clearlywhite-portrait.png)
+
+#### Diary Timeline
+
+> 식물의 성장 과정을 한 눈에 보기 쉽게 타임라인으로 확인 가능하다.
+
+![타임라인_google-pixel4-clearlywhite-portrait](README.assets/타임라인_google-pixel4-clearlywhite-portrait.png)
+
+
+
+
+
+### AR Tab
+
+
+
+#### 가상 식물 선택
+
+>  가상으로 배치해볼 식물을 선택 할 수 있다.
+>
+> 현재는 두가지 식물 모델만 제공 하고 있다.
+
+![AR](README.assets/KakaoTalk_20210526_102253555_08_google-pixel4-clearlywhite-portrait.png)
+
+#### 가상 배치
+
+> 손으로 드래그 해가며 가상으로 식물을 배치해 볼 수 있다.
+
+![AR_식물배치_google-pixel4-clearlywhite-portrait](README.assets/AR_식물배치_google-pixel4-clearlywhite-portrait.png)
+
+
+
+
+
+### Profile Tab
+
+> 유저의 개인정보를 변경, 수정, 삭제 할 수 있다.
+>
+> 현재 로그인된 유저의 메일과 보유 식물 정보를 확인 할 수 있다.
+>
+> 새로 키울 식물을 추천 받을 수 있다.
+>
+> 프로필 사진 변경, 비밀번호 변경, 탈퇴, 로그아웃을 할 수 있다.
+
+![KakaoTalk_20210526_102253555_09_google-pixel4-clearlywhite-portrait](README.assets/KakaoTalk_20210526_102253555_09_google-pixel4-clearlywhite-portrait.png)
+
+
+
+#### 식물 추천
+
+
+
+> GREEN-MBTI 테스트는 12문항으로 약 5분이 소요된다.
+
+![](README.assets/KakaoTalk_20210526_102253555_10_google-pixel4-clearlywhite-portrait.png)
+
+> 두 가지 선택지에서 한가지를 선택해 응답한다.  
+
+![KakaoTalk_20210526_102253555_11_google-pixel4-clearlywhite-portrait](README.assets/KakaoTalk_20210526_102253555_11_google-pixel4-clearlywhite-portrait-1624019694029.png)
+
+> 설문을 마치면 나의 MBTI 유형과 그에 맞는 식물을 추천해 준다.
+
+![KakaoTalk_20210526_102253555_12_google-pixel4-clearlywhite-portrait](README.assets/KakaoTalk_20210526_102253555_12_google-pixel4-clearlywhite-portrait.png)
+
+> 추천 받은 식물의 정보도 자세히 확인 할 수 있다. (키우기 난이도, 습도, 물주기 정보)
+
+![plant detail](README.assets/KakaoTalk_20210618_214637213_google-pixel4-clearlywhite-portrait.png)
+
+
+
+#### 프로필 사진 변경
+
+![프로필사진변경_google-pixel4-clearlywhite-portrait](README.assets/프로필사진변경_google-pixel4-clearlywhite-portrait.png)
+
+#### 비밀번호 재설정
+
+> 일반 이메일과 비밀번호 가입시에만 비밀번호가 변경가능하고, 소셜로그인을 통한 가입 사용자에게는 비밀번호를 변경할 수 없다 는 안내 메시지가 제공된다.
+
+
+
+![비밀번호재설정_google-pixel4-clearlywhite-portrait](README.assets/비밀번호재설정_google-pixel4-clearlywhite-portrait.png)
+
+#### 회원탈퇴
+
+> 회원탈퇴 전 개인정보 처리 및 재가입에 대한 안내 후 탈퇴가 진행된다.
+
+
+
+![회원탈퇴_google-pixel4-clearlywhite-portrait](README.assets/회원탈퇴_google-pixel4-clearlywhite-portrait.png)
+
+### 회원가입
+
+>이메일 가입, 구글 소셜 로그인을 제공
+
+
+
+#### 로그인 페이지
+
+> 로그인 하지 않은 유저의 경우 앱 이용시 가장 먼저 뜨는 화면
+>
+> 로그인, 회원가입, 비밀번호 재설정 기능이 제공된다.
+
+![로그인_google-pixel4-clearlywhite-portrait](README.assets/로그인_google-pixel4-clearlywhite-portrait.png)
+
+
+
+#### 이메일 회원가입
+
+> 이메일 회원가입 시에는 이메일 형식과 비밀번호 형식을 모두 충족해야 한다.
+
+![회원가입_google-pixel4-clearlywhite-portrait](README.assets/회원가입_google-pixel4-clearlywhite-portrait.png)
+
+> 이메일은 이메일 형식을 지켜야 하며, 비밀번호는 대/소문자, 숫자, 특수문자를 모두포함한 8글자 이상의 조합이어야 한다.
+
+![회원가입_형식맞지않는경우_google-pixel4-clearlywhite-portrait](README.assets/회원가입_형식맞지않는경우_google-pixel4-clearlywhite-portrait.png)
+
+
+
+#### 구글 소셜 회원가입
+
+
+
+![구글로그인_google-pixel4-clearlywhite-portrait](README.assets/구글로그인_google-pixel4-clearlywhite-portrait.png)
+
+
+
+
+
+## 💎주요기능
+
+
+
+### 방별 식물 관리 기능
+
+> 실제 집 안에서 배치한 것처럼 앱에서도 방 별로 식물을 배치해 관리 하는 기능
+
+- 메인화면 : 내가 가진 방 리스트를 확인할 수 있고, 메인화면 테마와 이름을 따로 지정해 편집가능
+- 방 : 
+  - 방안에 내가 가진 식물을 배치 할 수 있고, 방 테마와 이름을 지정해 편집가능
+  - 방 안에 식물을 추가하거나 삭제하거나 떠나감 처리가 가능
+  - 떠나간 식물의 경우, 일반 식물과 다르게 배경이 어둡게 처리 된다.
+  - 방 안의 식물의 정보를 자세히 확인 할 수있고, 나의 식물 활동 기록 또한 확인 가능하다.
+
+### AI를 통한 식물 등록
+
+> 앱에 식물을 등록할 때, 사진 한장으로 간편하게 등록하는 기능
+
+- 방에 식물을 등록할 때, 사진을 찍거나, 올려서 어떤 식물인지 판별할 수 있다.
+- 판별된 결과로 식물을 등록하면, 그린핑거스의 DB에서 식물 정보가 자동으로 연동되어 식물을 키울 때 필요한 정보를 확인 할 수 있다.
+- 또한, 연동된 식물 정보 중 급수주기와 사용자가 마지막으로 물 준 날짜를 파악해 물 주기 알림을 제공한다.
+
+
+
+### 물 주기 알림
+
+> 내가 따로 등록 하지 않아도 식물 별 물주기 알림을 통해 간편하게 식물을 케어하는 기능
+
+- 등록된 식물의 급수주기와 사용자가 마지막으로 물 준 날짜를 파악해 알림을 제공한다.
+- 로그인 되어 있을 경우, 앱을 사용하지 않을 때도 알림이 도착하고, 알림 확인시 앱으로 리다이렉트 된다.
+
+- 메인화면의 종버튼을 통해 알림 기록을 확인 할 수 있다.
+
+
+
+### AR 가상 식물 배치
+
+> 3D 오브젝트를 통해 가상으로 집 안에 식물을 배치해 보는 기능
+
+- 그린핑거스가 제공하는 3D오브젝트를 선택해 가상으로 배치해 볼수 있다. 현재 두가지 모델만 제공하고 있다.
+- 오브젝트를 선택했다면 카메라를 이용해 원하는 위치를 촬영하고, 화면에 드래그 해가면서 식물을 가상으로 배치해 볼수 있다.
+
+
+
+### GREEN-MBTI 식물 추천
+
+> 그린핑거스가 만든 MBTI별 식물 추천 기능
+
+- 그린핑거스가 만든 MBTI 판별 기능으로 12가지 문항에 응답함으로써 MBTI를 테스트 할 수 있다.
+- MBTI별 어울리는 식물을 추천하고, 식물별 키우기 난이도 및 정보를 제공해 새로운 식물을 키우는 것을 장려한다.
+
+
+
+
+
+
+
+##  ⚙️설치 및 실행
+
+### Front End
+
+- `.env`파일을 client 파일 내에 추가합니다. 
+- Firebase 안드로이드 앱을 만든 후 제공되는 정보를 아래 폼에 입력합니다.
+
+```
+WEB_CLIENT_ID=
+API_KEY=
+AUTH_DOMAIN=
+DATABASE_URL=
+PROEJCT_ID=
+STORAGE_BUCKET=
+MESSAGING_SENDER_ID=
+APP_ID=
+MEASUREMENT_ID=
+```
+
+- Firebase에서 제공하는 google-services.json 파일을 client/android/app 폴더 안에 추가합니다.
+
+- client 폴더에서 패키지를 설치합니다.
+
+```
+npm install
+```
+
+- 안드로이드 스튜디오에서 안드로이드 기기를 연결해 실행합니다. (React-Viro 라이브러리가 에뮬레이터를 지원하지 않습니다.)
+
+- 프로젝트를 실행합니다.
+
+```
+npm run android
+```
+
+
+
+### Back End
+
+인텔리제이를 이용하여 spring 프로젝트를 실행시킵니다.
+
+
+
+### AI
+
+- identify 폴더 안으로 들어옵니다. (학습된 모델 파일이 있어야 실행가능 하나 용량 문제로 Git에는 올리지 못했습니다.)
+
+- 관련 라이브러리를 설치합니다.
+
+```
+pip install flask
+pip install torch 
+pip install torchvision 
+pip install pillow 
+pip install collections
+```
+
+- 모델을 실행합니다.
+
+```
+python3 app.py
+```
+
+
+
